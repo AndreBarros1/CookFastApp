@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="41dp"
+        android:background="#000000"
+        android:tint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/linha" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/estrela"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/estrela"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/estrela"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="79dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seta" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Favoritos"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="41dp"
+        android:background="#000000"
+        android:tint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/linha" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/estrela"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="84dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/settings"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Bolo de Cenoura"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mac n' Cheese"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Strogonoff"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Brigadeiro"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="346dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
