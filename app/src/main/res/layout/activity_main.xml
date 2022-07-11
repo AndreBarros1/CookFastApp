@@ -24,7 +24,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Circulo"
+        app:srcCompat="@drawable/circulo"
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -140,8 +140,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/nuvem2"
-        tools:layout_editor_absoluteX="-48dp"
-        tools:layout_editor_absoluteY="-7dp" />
+        tools:layout_editor_absoluteX="-61dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
         android:id="@+id/imageView10"
