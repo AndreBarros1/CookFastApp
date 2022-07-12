@@ -67,15 +67,6 @@
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="258dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="67dp"
-        android:layout_height="67dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/Facebook"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="251dp" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="191dp"
@@ -131,5 +122,14 @@
         app:layout_constraintBottom_toTopOf="@+id/createpass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="247dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

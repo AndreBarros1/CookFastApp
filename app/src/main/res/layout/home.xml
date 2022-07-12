@@ -108,7 +108,7 @@
         android:layout_width="217dp"
         android:layout_height="209dp"
         app:srcCompat="@drawable/bolo"
-        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="504dp" />
 
     <ImageButton
